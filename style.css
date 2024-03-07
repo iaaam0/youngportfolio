@@ -329,7 +329,7 @@ a:hover {
     border-radius: 20px;
 }
 
-.project-list {
+.project-list1 {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -346,6 +346,18 @@ a:hover {
     align-content: center;
     margin: 0px 150px;
     margin-top: 20px;
+}
+
+.project-intro>h4 {
+    margin: 0;
+}
+
+.project-day {
+    font-family: 'RIDIBatang';
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 40px;
+    margin: 0;
 }
 
 /* 경력 */
