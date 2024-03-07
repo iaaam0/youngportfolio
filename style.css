@@ -326,7 +326,10 @@ a:hover {
 
 .project-icon {
     width: 500px;
+    height: 250px;
     border-radius: 20px;
+    border: 2px solid white;
+    margin-top: 35px;
 }
 
 .project-list1 {
@@ -344,7 +347,7 @@ a:hover {
     flex-direction: column;
     justify-content: flex-start;
     align-content: center;
-    margin: 0px 150px;
+    margin: 0px 60px;
     margin-top: 20px;
 }
 
@@ -359,6 +362,37 @@ a:hover {
     margin-bottom: 40px;
     margin: 0;
 }
+
+.project-hr1 {
+    border: 1px solid black;
+    width: 100%;
+}
+
+.project-exp {
+    font-family: 'RIDIBatang';
+}
+
+.project-site {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.project-site>h4 {
+    font-family: 'RIDIBatang';
+    padding-right: 10px;
+}
+
+.project-site>a {
+    font-family: 'RIDIBatang';
+    color: black;
+}
+
+.project-site>a:hover {
+    color: rgb(236, 102, 102);
+}
+
+
 
 /* 경력 */
 .history {
