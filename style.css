@@ -1,0 +1,437 @@
+@font-face {
+    font-family: 'RIDIBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #ead7d1;
+}
+
+.frame {
+    margin: 30px 150px;
+    display: flex;
+    flex-direction: column; 
+}
+
+/* 상단메뉴 */
+.nav {    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav::after {
+    height: 70px;
+    line-height: 70px;
+    background-color: #DBCDC6;
+}
+
+li {
+    display: inline;
+    margin: 0;
+    margin-left: 13px;
+}
+
+ul {
+    margin: 0;
+}
+
+.site-name {
+    margin: 0;
+    font-family: 'RIDIBatang';
+    font-size: 25px;
+    color: #8D6E63;
+}
+
+.site-aname {
+    margin: 0;
+    font-family: 'RIDIBatang';
+    font-size: 25px;
+    color: #8D6E63;
+}
+
+.site-aname a:hover {
+    margin: 0;
+    font-family: 'RIDIBatang';
+    font-size: 25px;
+    color: #8D6E63;
+}
+
+.nav-manu {
+    font-family: 'RIDIBatang';
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #795548;
+    transition: 0.3s;
+}
+
+.title-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.title-text>h1 {
+    text-align: center;
+}
+
+.comment {
+    margin-bottom: 50px;
+}
+
+/* 타이틀 */
+.me-font {
+    font-family: 'RIDIBatang';
+    font-weight: 400px;
+    font-size: 40px;
+}
+
+.my-name {
+    background-color: #F48FB1;
+}
+
+.my-name:hover {
+    background-color: transparent;
+    transition: 0.1;
+    color: #F48FB1;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #F48FB1;
+}
+
+.type1 {
+    background-color: transparent;
+    transition: 0.1;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #AB47BC;
+}
+
+.type1:hover {
+    background-color: #E1BEE7;
+    color: #AB47BC;
+}
+
+.type2 {
+    background-color: transparent;
+    transition: 0.1;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #1E88E5;
+}
+
+.type2:hover {
+    background-color: #BBDEFB;
+    color: #1E88E5;
+}
+
+.comment {
+    font-family: 'RIDIBatang';
+    font-style: italic;
+    font-size: 17px;
+    font-weight: 200;
+}
+
+/* 자기소개 */
+.about {
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.about-text {
+    font-family: 'RIDIBatang';
+    font-size: 50px;
+    font-weight: 700;
+    color: #8D6E63;
+    margin-bottom: 50px;
+    border-bottom: 2px solid #795548;
+}
+
+#poto {
+    width: 200px;
+    border: 3px solid white;
+    margin-right: 50px;
+    margin-top: 15px;
+}
+
+.information {
+    display: flex;
+    flex-flow: row warp;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.info-section {
+    display: flex;
+    flex-flow:column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.info-section1 {
+    display: flex;
+    flex-flow: row warp;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.info-section2 {
+    display: flex;
+    flex-flow: row warp;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.about-info {
+    margin: 10px;
+}
+
+.info1 {
+    font-family: 'RIDIBatang';
+    font-size: 20px;
+    padding-right: 100px;
+}
+
+.info2 {
+    font-family: 'RIDIBatang';
+    font-size: 20px;
+    padding-right: 90px;
+}
+
+.info-exp {
+    font-family: 'RIDIBatang';
+    font-size: 15px;
+}
+
+.info2-tel {
+    font-family: 'RIDIBatang';
+    font-size: 20px;
+    padding-right: 82px;
+}
+
+.info2-email {
+    font-family: 'RIDIBatang';
+    font-size: 20px;
+    padding-right: 119px;
+}
+
+
+/* 기술 스택 */
+.skills {
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.skills-text {
+    font-family: 'RIDIBatang';
+    font-size: 50px;
+    font-weight: 700;
+    color: #8D6E63;
+    margin-bottom: 50px;
+    border-bottom: 2px solid #795548;
+}
+
+.stack-name {
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.skill-stack1 {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.skill-stack2 {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.skill-stack3 {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.skill-img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.project-text {
+    font-family: 'RIDIBatang';
+    font-size: 50px;
+    font-weight: 700;
+    color: #8D6E63;
+    margin-bottom: 50px;
+    border-bottom: 2px solid #795548;
+}
+
+.history {
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.history-text {
+    font-family: 'RIDIBatang';
+    font-size: 50px;
+    font-weight: 700;
+    color: #8D6E63;
+    margin-bottom: 50px;
+    border-bottom: 2px solid #795548;
+}
+
+
+/* RECENT WORKS */
+.recnt-menu {
+    font-family: 'RIDIBatang';
+    font-size: 15px;
+    font-weight: 700;
+    color:#795548;
+    /* RECENT WORKS 오른쪽으로 보내기 */
+    display: inline;
+    align-self: flex-end;
+}
+
+/* footer */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.contact {
+    font-family: 'RIDIBatang';
+    font-size: 50px;
+    font-weight: 700;
+    color: #8D6E63;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #795548;
+}
+
+.links>a {
+    font-family: 'RIDIBatang';
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+.footer>p {
+    font-family: 'RIDIBatang';
+    font-style: italic;
+    font-size: 17px;
+    font-weight: 200;
+    margin: 0;
+    margin-top: 10px;
+}
+
+
+
+/* profile 
+.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 100px 100px;
+}
+
+#profile-picture {
+    width: 400px;
+    margin-right: 60px;
+}
+
+.introduction>h2 {
+    margin: 0;
+    font-family: 'RIDIBatang';
+    font-size: 40px;
+}
+
+.introduction>p {
+    font-family: 'RIDIBatang';
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+#catability {
+    font-style: italic;
+}
+
+/* project-menu 
+.project-menu {
+    font-family: 'RIDIBatang';
+    font-size: 40px;
+    margin: 30px 100px;
+}
+
+.project-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 0px 150px;
+    margin-top: 20px;
+}
+
+.project-icon {
+    width: 400px;
+    border: 2px solid #795548;
+    border-radius: 20px;
+    margin: 0px 20px;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.project-name {
+    font-family: 'RIDIBatang';
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.project-exp {
+    font-family: 'RIDIBatang';
+    font-size: 18px;
+    margin-top: 0;
+} */
