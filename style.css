@@ -5,22 +5,16 @@
     font-style: normal;
 }
 
-/*가로 너비가 600px 이하일 때 아래 스타일 적용*/
-@media (max-width:600px){ 
-#main {
-    display: block;
-}
-#main .sidebar {
-    min-height: 0;
-}
+html {
+    scroll-behavior: smooth;
 }
 
 body {
-    background-color: #ead7d1;
+    background-color: #F7EBEC;
 }
 
 .frame {
-    margin: 30px 150px;
+    width: 100%;
     display: flex;
     flex-direction: column; 
 }
@@ -30,6 +24,10 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .nav::after {
@@ -87,7 +85,8 @@ a:hover {
 .title-text {
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 190px;
+    margin-bottom: 190px;
     align-items: center;
 }
 
@@ -157,22 +156,23 @@ a:hover {
     flex-direction: row;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
+    background-color: #DDBDD5;
 }
 
 .about-text {
     font-family: 'RIDIBatang';
     font-size: 50px;
-    font-weight: 700;
-    color: #8D6E63;
+    font-weight: 800;
+    color: white;
     margin-bottom: 50px;
-    border-bottom: 2px solid #795548;
+    border-bottom: 2px solid white;
 }
 
 #poto {
     width: 200px;
     border: 3px solid white;
-    margin-right: 50px;
+    margin-right: 60px;
     margin-top: 15px;
 }
 
@@ -181,6 +181,7 @@ a:hover {
     flex-flow: row warp;
     justify-content: center;
     align-items: flex-start;
+    margin-bottom: 50px;
 }
 
 .info-section {
@@ -205,7 +206,7 @@ a:hover {
 }
 
 .about-info {
-    margin: 10px;
+    margin-right: 45px;
 }
 
 .info1 {
@@ -222,7 +223,13 @@ a:hover {
 
 .info-exp {
     font-family: 'RIDIBatang';
-    font-size: 15px;
+    font-size: 17px;
+}
+
+.info1-day {
+    font-family: 'RIDIBatang';
+    font-size: 20px;
+    padding-right: 104px;
 }
 
 .info2-tel {
@@ -244,16 +251,17 @@ a:hover {
     flex-direction: row;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
+    background-color: #AC9FBB;
 }
 
 .skills-text {
     font-family: 'RIDIBatang';
     font-size: 50px;
     font-weight: 700;
-    color: #8D6E63;
+    color: white;
     margin-bottom: 50px;
-    border-bottom: 2px solid #795548;
+    border-bottom: 2px solid white;
 }
 
 .stack-name {
@@ -283,6 +291,7 @@ a:hover {
     flex-flow: row;
     justify-content: flex-start;
     align-content: center;
+    margin-bottom: 50px;
 }
 
 .skill-img {
@@ -291,38 +300,71 @@ a:hover {
     margin: 10px;
 }
 
+/* 프로젝트 */
 .project {
     display: flex;
     flex-direction: row;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
+    background-color: #59656F;
 }
 
 .project-text {
     font-family: 'RIDIBatang';
     font-size: 50px;
     font-weight: 700;
-    color: #8D6E63;
+    color: white;
     margin-bottom: 50px;
-    border-bottom: 2px solid #795548;
+    border-bottom: 2px solid white;
 }
 
+.project-name {
+    font-family: 'RIDIBatang';
+    font-size: 25px;
+}
+
+.project-icon {
+    width: 500px;
+    border-radius: 20px;
+}
+
+.project-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 0px 150px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.project-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 0px 150px;
+    margin-top: 20px;
+}
+
+/* 경력 */
 .history {
     display: flex;
     flex-direction: row;
     flex-direction: column;
     align-items: center;
     margin-bottom: 100px;
+    background-color: #1D1E2C;
 }
 
 .history-text {
     font-family: 'RIDIBatang';
     font-size: 50px;
     font-weight: 700;
-    color: #8D6E63;
+    color: white;
     margin-bottom: 50px;
-    border-bottom: 2px solid #795548;
+    border-bottom: 2px solid white;
 }
 
 /* TOP버튼 */
